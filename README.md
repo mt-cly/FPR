@@ -1,11 +1,11 @@
 # FPR: False Positive Rectification for Weakly Supervised Semantic Segmentation [[pdf]](http://www4.comp.polyu.edu.hk/~cslzhang/paper/ICCV23-FPR.pdf)
 
 
-# Method
+## Method
 
-<div style="text-align: center;">
+<p align="center">
 <img src="motivation.png" alt="Image" width="400" height="400">
-</div>
+</p>
 
 The CAM in weakly supervised semantic segmentation suffers from over-activation from co-occurred background regions. Luckily, We observe that co-occurred background sometimes present in image solely and its cues can be easily captured through image-level labels. In detail, the framework is as follows, which insists of Online Prototype Computing and Training wht Prototype parts. 
 
@@ -13,10 +13,10 @@ The CAM in weakly supervised semantic segmentation suffers from over-activation 
 <img src="method.png" alt="Image" width="800" height="400">
 </div>
 
-# Get Start
+## Get Start
 
 
-## Environment
+### Environment
 ```
 git clone https://github.com/mt-cly/FPR.git
 conda create -n fpr python=3.8
@@ -25,13 +25,13 @@ cd ./FPR
 pip install -r requirements.txt
 ```
 
-## Datasets & Weights
+### Datasets & Weights
 
 1. Download the augmented [VOC12](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/#data) & [COCO14](https://cocodataset.org/#download) and put them to the  `Dataset` folder.
 2. Download the [CAM initial weight](https://drive.google.com/file/d/1FzPytZExLjJBB8od4kLHBYpX2uhD2BXy/view?usp=sharing) and place it to the `sess` folder.
 
 
-## Run
+### Run
 
 ```
 python run_sample.py
@@ -39,11 +39,11 @@ python run_sample.py
 
 The trained fpr weight and log are available: [[res50_fpr.pth]](https://drive.google.com/file/d/14HRtcg75LmHcIQEw_k5rsnthVFeR6mKn/view?usp=sharing)  [[fpr.log]](https://drive.google.com/file/d/18g2x1ORtGP1U_F7pnSswWpsD4zwjzeih/view?usp=sharing)  
 
-# TODO
+## TODO
 
 * Release the COCO2014 part  code.
 
-# Citation
+## Citation
 
 ```
 @article{chen2023fpr,
