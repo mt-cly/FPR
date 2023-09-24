@@ -7,7 +7,7 @@
 <img src="motivation.png" alt="Image" width="400" height="400">
 </p>
 
-The CAM in weakly supervised semantic segmentation suffers from over-activation from co-occurred background regions. Luckily, We observe that co-occurred background sometimes present in image solely and its cues can be easily captured through image-level labels. In detail, the framework is as follows, which insists of Online Prototype Computing and Training wht Prototype parts. 
+The CAM in weakly supervised semantic segmentation suffers from over-activation from co-occurred background regions. Luckily, We observe that co-occurred background sometimes present in image solely and its cues can be easily captured through image-level labels. In detail, the framework is as follows, which insists of Online Prototype Computing and Training with Prototype parts. 
 
 <div style="text-align: center;">
 <img src="method.png" alt="Image" width="800" height="400">
@@ -48,7 +48,7 @@ The trained fpr weight and log are available: [[res50_fpr.pth]](https://drive.go
 ```
 @article{chen2023fpr,
   title={FPR: False Positive Rectification for Weakly Supervised Semantic Segmentation},
-  author={Chen, Liyi and Lei, Chenyang and Li, Ruihuang and Li, Shuai and Zhang, Zhaoxiang and Zhang, Lei, Jinfeng and Zhang, Lei},
+  author={Chen, Liyi and Lei, Chenyang and Li, Ruihuang and Li, Shuai and Zhang, Zhaoxiang and Zhang, Lei},
   booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
   pages={},
   year={2023}
